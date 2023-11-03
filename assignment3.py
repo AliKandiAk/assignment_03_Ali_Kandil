@@ -87,8 +87,8 @@ while True:
       name=input("enter your name:")
       age=int(input("enter your age:"))
       mj=input("enter your major:")
-      Gpa=int(input("enter your gpa:"))
-      Add_Student(student_data,name,age,mj,Gpa)
+      Gpa=float(input("enter your gpa:"))
+      Add_Student(student_data,name,age,mj,Gpa) 
   elif x=="5":
       pass
   elif x=="6":
